@@ -116,7 +116,7 @@ public class BouncingBall extends JFrame {
 		protected void paintComponent(Graphics g) {
 			long start = System.nanoTime();
 			super.paintComponent(g);
-			setBackground(Color.BLUE);
+			setBackground(Color.RED);
 			//Ball
 			g.setColor(ballColor);
 			g.fillOval(x, y, size, size);
